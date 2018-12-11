@@ -1,0 +1,101 @@
+if (el.Enabled != false)
+{
+	throw new AssertFailedException();
+}
+
+
+
+[Test]
+public void DisplayFoundAirticketsAirlineBelavia()
+{
+    steps.FillInForm(CITY_ORIGIN, CITY_DISTINATION);
+    steps.FilterAirportInFindTicketsPage();
+    SoftAssert ticketsWithLaggageAndBagsAssert = new SoftAssert();
+    foreach (IWebElement elem in ticketsAircompanyBelavia)
+    {
+        if(elem.Displayed)
+        {
+            var srcImageAirCompany = elem.FindElement(By.XPath("//img")).GetAttribute("src");
+            ticketsWithLaggageAndBagsAssert.AreEquals(srcImageAirCompany, "/images/airline/120/35/gravity=west/B2@2x.png");
+        }
+    }
+    ticketsWithLaggageAndBagsAssert.VerifyAll();
+}
+
+
+
+
+[Test]
+public void TestMethod()
+{
+    // TODO: Add your test code here
+    Assert.Pass("Your first passing test");
+}
+
+
+
+
+ static void Main(string[] args)
+{
+    Framework.Tests.Tests tests = new Framework.Tests.Tests();
+    tests.FromBakuToMinskTestSearch();
+    tests.SearchOnSiteByTextMoscow();
+    tests.ChangeToEng();
+}
+
+
+
+
+public void DoTest(string result)
+{
+	Assert.AreEqual(this.Result.Text, result);
+}
+
+
+
+public void check7() {
+	Triangle triangle = new Triangle();
+	boolean actual = triangle.check(5,4,3);
+	assertEquals(actual, true);
+}
+
+
+
+
+ if (actualUrl.equals(url)) {
+		System.out.println("Correct Url");
+	} else {
+		System.out.println("Incorrect Url \n Actual URL is : " + actualUrl + "\n Expected URL is : " + url);
+}
+
+
+
+
+try
+    {
+        string city = point.FindElement(By.ClassName("city")).Text;
+        if (city != string.Empty)
+        {
+            Assert.IsTrue(city.Contains("Minsk"));
+        }
+    }
+    catch
+                {
+}
+
+
+
+
+if (Program.isTriangle(value1,value2,value3) == true)
+                Assert.Fail("Values cannot be less than 0 or check time passed");
+
+				
+				
+				
+				
+if (Program.isTriangle(value1, value2, value3) == false)
+                Assert.Fail("Something wrong with logic inside the method or check time passed");
+				
+				
+
+

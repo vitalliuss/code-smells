@@ -1,0 +1,15 @@
+for (int i = 0; i < 13; i++) {
+            mainPage.clickOnNextMonthButton();
+}
+
+for (int i = 0; i < 8; i++) {
+            addAdults.click();
+}
+
+
+
+
+
+
+
+

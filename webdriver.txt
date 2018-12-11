@@ -1,0 +1,55 @@
+this.driver = _driver;
+
+
+
+private const string recordArrival = "MIL";
+
+public void FillingInFlightData()
+{
+    arrival.SendKeys(recordArrival);
+    arrivalDate.Click();
+    arrivalMonth.Click();
+    arrivalDay.Click();
+}
+
+
+
+
+public MainPage(WebDriver driver) {
+	  if (!driver.getCurrentUrl().contains(URL_MATCH)) {
+					 throw new IllegalStateException("This is not the page you are expected");
+	  }
+
+	  PageFactory.initElements(driver, this);
+	  this.driver = driver;
+}
+
+
+
+
+public void chooseFlightDirection(){
+        flyFromField.clear();
+        flyFromField.sendKeys("Warsaw");
+}
+
+
+
+
+public void initBrowser()
+
+
+
+
+public void ClickDraftLink(){
+	try {
+		Thread.sleep(5000);
+	} catch (InterruptedException e) {
+		e.printStackTrace();
+	}
+	draft_link.click();
+}
+
+
+	
+	
+

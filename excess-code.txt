@@ -1,0 +1,94 @@
+System.out.println(actual.equals(expected) ? "Expected equals actual" : "Expected not equal actual");
+
+
+
+String title = driver.Title;
+Assert.AreEqual(true, title.Contains(expectedTitle)
+
+
+
+Assert.AreEqual(steps.IsCityToHelperDisplayed(ToPoint), true);
+
+
+
+
+boolean res = triangle.check(a,b,c);
+if(res==true) {
+              System.out.println("Triagle is possible!");
+}
+else {
+              System.out.println("Triangle is not possible!");
+}
+
+
+
+
+boolean flag = true;
+return flag;
+
+
+
+
+if ((A < 0 || B < 0 || C < 0) && (B + C > A) || (A + C > B) || (A + B > C))
+                return false;
+else return true;
+
+
+
+
+public boolean isLetterPresentInList(String textToFind) {
+	try {
+		mailPage.getFirstSubjectThatContains(textToFind);
+	} catch (NoSuchElementException e) {
+		return false;
+	}
+	return true;
+}
+
+
+
+
+public boolean isLogOut()
+{
+	if (!ForgotPassword.isDisplayed())
+	{
+		return false;
+	}
+	return true;
+}
+
+
+
+
+flag = true;
+return flag;
+
+
+
+
+
+[TestMethod] //1
+public void NegativeNumber( ) {
+	bool result;
+	try {
+		result = isCorrectTriagle(4, -2, 5);
+	}
+	catch (Exception e) {
+		Assert.AreEqual(e.Message, "Must be positive");
+		return;
+	}
+		 Assert.Fail("Exception expected");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

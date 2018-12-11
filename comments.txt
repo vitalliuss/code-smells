@@ -1,0 +1,29 @@
+//        if we want to wait 5 seconds before browser will be closed, uncomment the line below
+//        Thread.sleep(5000);
+
+
+
+
+ /*[Test]*/
+ 
+ 
+ 
+ 
+Assert.AreEqual(result.isRightAircompany(), true);
+
+
+
+
+//9
+@Test(dataProvider = "oneNegativeSide")
+
+
+
+
+
+logger.info("-------------------------------------------------------------------------");
+
+
+
+
+

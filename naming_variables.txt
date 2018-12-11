@@ -1,0 +1,42 @@
+FindTicketsPage result = new FindTicketsPage(driver);
+
+
+
+[FindsBy(How = How.ClassName, Using = "form-input destination")]
+public IWebElement SearchBox2 { get; set; }
+
+
+
+
+[FindsBy(How = How.Id, Using = "departureDate-display")]
+public IWebElement Date1 { get; set; }
+
+		
+		
+		
+		
+public void EnterValues(string C1, string C2, string D1, string D2)
+{
+	this.City1.SendKeys(C1 + Keys.Enter);
+	this.City2.SendKeys(C2 + Keys.Enter);
+	this.Date1.SendKeys(D1 + Keys.Enter);
+	this.Date2.SendKeys(D2 + Keys.Enter);
+	this.But1.Click();
+}
+
+
+
+depStrDate.SendKeys("11/15/2018");
+retStrDate.SendKeys("11/24/2018");
+
+
+
+WebElement whum;
+
+
+
+
+Assert.AreEqual(true, Check);
+
+
+

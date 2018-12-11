@@ -1,0 +1,71 @@
+public void test1
+
+
+
+private void _1_OpenHomePageAndSelectOneWayTicket()
+
+
+
+
+public void EnterValues(string Surname, string Name, string BirthDate, string PassportCountry, string PassportNumber, string PassportDate, string Country, string Phone, string Email)
+
+
+
+
+public void IsFalseWhen()
+
+
+
+
+public static class Triangle
+{
+    public  static bool IsTriangle(double a, double b, double c) {
+	...
+	}
+}
+
+
+
+
+public String CheckSubject()
+
+
+
+
+public InboxPage readFirstMsgSubjectAndBody()
+
+
+
+
+public Boolean isCanBe()
+
+
+
+public void T03()
+
+
+
+[TestMethod]
+public void Side_a_equally_15_side_c_equally_16_but_side_b_equally_minus_6_return_false()
+
+
+
+
+@Test
+public void assertFalseTest() {
+	assertFalse(tr.isExist(5, 1, 9));
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

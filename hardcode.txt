@@ -1,0 +1,9 @@
+public void Input_date()
+{
+    date.SendKeys("21.11.2018");
+    date.SendKeys(Keys.Enter);
+}
+
+
+
+

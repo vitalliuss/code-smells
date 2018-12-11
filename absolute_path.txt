@@ -1,0 +1,12 @@
+private final static String CHROMEDRIVER_PATH = "D:/Program Files/chromedriver.exe";
+
+
+
+System.setProperty("webdriver.chrome.driver", "C://Users/User/Desktop/chromedriver.exe");
+
+
+
+RemoteWebDriver Driver = new InternetExplorerDriver("D:\\IEDriverServer.exe");
+
+
+
