@@ -1,7 +1,7 @@
 # code-smells
 ## What is it?
 
-This is a storage of code which can be improved. Treat this as a "bad code" samples pack. Every piece of code insight was selected computer-science students works. Sad but true, every line here are from real practical tasks. Please avoid reusing it.
+This is a storage of code which can be improved. Treat this as a "bad code" samples pack. Every piece of code inside was selected out of  computer-science students works. Sad but true, every line here is from real practical tasks. Please avoid reusing it.
 
 ## Why collect this?
 
